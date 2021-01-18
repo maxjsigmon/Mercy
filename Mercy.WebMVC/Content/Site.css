@@ -3,6 +3,7 @@
     padding-bottom: 20px;
     background-color: rgb(39, 39, 39);
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -25,6 +26,33 @@ textarea {
     max-width: 280px;
 }
 
+/*Navbar*/
+.navbar-nav  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(177, 40, 16), rgb(177, 40, 16) 50%, white 50% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    background-position: 0 100%;
+    }
+
+/*Jumbotron*/
 .jumbotron {
     background-image: url(../Assets/rosewindow.jpg);
     background-size: cover;
@@ -37,10 +65,20 @@ textarea {
     padding-left: 0px;
 }
 
-.jumbotron-text {
-    background-color:rgba(39, 39, 39, 0.7);
+.jumbotron-overlay {
+    background-color: rgba(39, 39, 39, 0.7);
     border-top: 3px rgb(177, 40, 16) solid;
     border-bottom: 3px rgb(177, 40, 16) solid;
     width: 100%;
-   
+}
+
+.jumbotron-text h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    padding-left: 10px;
+}
+
+.jumbotron-text p {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
 }
