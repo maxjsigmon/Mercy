@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mercy.Services
 {
-    class MercyPostService
+    public class MercyPostService
     {
     }
 }
