@@ -1,6 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: rgb(39, 39, 39);
+    color: white;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +23,24 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.jumbotron {
+    background-image: url(../Assets/rosewindow.jpg);
+    background-size: cover;
+    color: white;
+    border: 1px black solid;
+}
+
+ .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.jumbotron-text {
+    background-color:rgba(39, 39, 39, 0.7);
+    border-top: 3px rgb(177, 40, 16) solid;
+    border-bottom: 3px rgb(177, 40, 16) solid;
+    width: 100%;
+   
 }
