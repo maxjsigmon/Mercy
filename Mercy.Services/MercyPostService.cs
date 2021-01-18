@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mercy.Models
+namespace Mercy.Services
 {
-    public class Class1
+    class MercyPostService
     {
     }
 }
