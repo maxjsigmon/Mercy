@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Mercy.Data;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -29,5 +30,9 @@ namespace Mercy.WebMVC.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<MercyPost> Posts { get; set; }
+
+        //public System.Data.Entity.DbSet<Mercy.Models.PostCreate> PostCreates { get; set; }
     }
 }

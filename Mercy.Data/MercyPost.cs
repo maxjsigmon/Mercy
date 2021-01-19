@@ -9,14 +9,29 @@ namespace Mercy.Data
 {
     public class MercyPost
     {
+        [Key]
         public int PostID { get; set; }
+
+        [Required]
         public Guid OwnerID { get; set; }
+
+        [Required]
         public string Title { get; set; }
+
+        [Required]
         public string Description { get; set; }
-        public DateTime DateOfNeed { get; set; }  
-        public DateTime TimeOfNeed { get; set; }  
+
+        [Required]
+        public DateTime DateOfNeed { get; set; }
+
+        [Required]
+        public DateTime TimeOfNeed { get; set; }
+
+        [Required]
         public WorkOfMercy WorkOfMercy { get; set; }
+
         public DateTimeOffset CreatedUtc { get; set; }
+
         public DateTimeOffset? ModifiedUtc { get; set; }
     }
 

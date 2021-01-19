@@ -31,5 +31,7 @@ namespace Mercy.Models.Mercy_Post
         [Range(1, int.MaxValue, ErrorMessage = "Select a Work of Mercy")]
         [Display(Name = "Work of Mercy")]
         public WorkOfMercy WorkOfMercy { get; set; }
+
+        public DateTimeOffset CreatedUtc { get; set; }
     }
 }

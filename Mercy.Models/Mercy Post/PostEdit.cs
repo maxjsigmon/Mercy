@@ -10,6 +10,8 @@ namespace Mercy.Models.Mercy_Post
 {
     public class PostEdit
     {
+        public int PostID { get; set; }
+
         [Required]
         public string Title { get; set; }
 

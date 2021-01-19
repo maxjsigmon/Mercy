@@ -25,6 +25,6 @@ namespace Mercy.Models.Mercy_Post
 
         public DateTimeOffset? ModifiedUtc { get; set; }
 
-        public int UserID { get; set; }
+        public Guid OwnerID { get; set; }
     }
 }
